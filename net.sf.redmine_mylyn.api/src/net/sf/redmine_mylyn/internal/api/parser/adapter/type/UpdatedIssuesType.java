@@ -1,8 +1,8 @@
 package net.sf.redmine_mylyn.internal.api.parser.adapter.type;
 
-import javax.xml.bind.annotation.XmlList;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlValue;
+import jakarta.xml.bind.annotation.XmlList;
+import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlValue;
 
 @XmlRootElement(name="updatedIssues")
 public class UpdatedIssuesType {

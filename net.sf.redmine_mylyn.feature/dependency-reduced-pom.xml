@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+    <artifactId>net.sf.redmine_mylyn.parent</artifactId>
+    <groupId>net.sf.redmine_mylyn</groupId>
+    <version>0.5.2-SNAPSHOT</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.sf.redmine_mylyn.feature</groupId>
+  <artifactId>net.sf.redmine_mylyn.feature</artifactId>
+  <packaging>eclipse-feature</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.slf4j.api</artifactId>
+      <version>1.7.2.v20121108-1250</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>javax.xml.jre</artifactId>
+      <version>1.3.4.202210170008</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>com.google.guava</artifactId>
+      <version>21.0.0.v20170206-1425</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>com.sun.jna</artifactId>
+      <version>5.17.0.v20250316-1700</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>com.sun.xml.bind</artifactId>
+      <version>2.3.3.v20221203-1659</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>jakarta.xml.bind</artifactId>
+      <version>2.3.3.v20221203-1659</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>javax.activation</artifactId>
+      <version>1.2.2.v20221203-1659</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.osgi</artifactId>
+      <version>3.23.200.v20250812-1847</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>javax.servlet</artifactId>
+      <version>3.1.0.v201410161800</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.runtime</artifactId>
+      <version>3.34.0.v20250711-1249</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.net</artifactId>
+      <version>4.8.0.v20250809-1603</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.osgi.services</artifactId>
+      <version>3.12.300.v20250707-1221</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.core</artifactId>
+      <version>4.8.0.v20250808-1900</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.tasks.core</artifactId>
+      <version>4.8.0.v20250819-0720</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.tasks.ui</artifactId>
+      <version>3.26.0.v20230221-1933</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.ui</artifactId>
+      <version>4.8.0.v20250810-0711</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.forms</artifactId>
+      <version>3.13.600.v20250707-1254</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui</artifactId>
+      <version>3.207.300.v20250730-1123</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.editors</artifactId>
+      <version>3.20.100.v20250814-1056</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.jface.text</artifactId>
+      <version>3.28.100.v20250814-0656</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.aspectj.runtime</artifactId>
+      <version>1.9.22.202405141514</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.json</artifactId>
+      <version>1.0.0.v201011060100</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.text</artifactId>
+      <version>3.14.400.v20250731-0735</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.batik.constants</artifactId>
+      <version>1.19.0.v20250506-1400</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.orbit.xml-apis-ext</artifactId>
+      <version>1.0.0.v20240917-0534</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.batik.css</artifactId>
+      <version>1.19.0.v20250506-1400</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.xmlgraphics</artifactId>
+      <version>2.11.0.v20250506-1400</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.batik.i18n</artifactId>
+      <version>1.19.0.v20250506-1400</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.batik.util</artifactId>
+      <version>1.19.0.v20250506-1400</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.commons.codec</artifactId>
+      <version>1.14.0.v20221112-0806</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.commons.httpclient</artifactId>
+      <version>3.1.0.v20240401-1000</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.xml.resolver</artifactId>
+      <version>1.2.0.v20230928-1222</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.apache.xerces</artifactId>
+      <version>2.12.2.v20230928-1306</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.compare</artifactId>
+      <version>3.11.500.v20250801-0809</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.resources</artifactId>
+      <version>3.23.0.v20250729-1759</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.ide</artifactId>
+      <version>3.22.700.v20250727-0505</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.views</artifactId>
+      <version>3.12.700.v20250719-0751</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.workbench.texteditor</artifactId>
+      <version>3.19.300.v20250815-0722</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.expressions</artifactId>
+      <version>3.9.500.v20250608-0434</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.compare.core</artifactId>
+      <version>3.8.800.v20250718-1505</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.swt.svg</artifactId>
+      <version>3.130.100.v20250701-0612</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.commands</artifactId>
+      <version>3.12.400.v20250312-0643</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.common</artifactId>
+      <version>3.20.200.v20250628-0509</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.contenttype</artifactId>
+      <version>3.9.700.v20250720-0618</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.preferences</artifactId>
+      <version>3.12.0.v20250721-0426</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.registry</artifactId>
+      <version>3.12.500.v20250708-0540</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.databinding</artifactId>
+      <version>1.13.600.v20250726-1743</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.databinding.observable</artifactId>
+      <version>1.13.400.v20250409-0730</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.databinding.property</artifactId>
+      <version>1.10.400.v20250409-0730</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.databinding.beans</artifactId>
+      <version>1.10.400.v20250409-0730</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.filebuffers</artifactId>
+      <version>3.8.400.v20250108-1526</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.filesystem</artifactId>
+      <version>1.11.300.v20250607-0645</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.jobs</artifactId>
+      <version>3.15.700.v20250725-1147</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.core.net</artifactId>
+      <version>1.5.800.v20250613-1119</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.security</artifactId>
+      <version>1.4.700.v20250622-1644</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.app</artifactId>
+      <version>1.7.500.v20250629-0337</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.commands</artifactId>
+      <version>1.1.600.v20250307-1331</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.di</artifactId>
+      <version>1.9.700.v20250609-0907</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.contexts</artifactId>
+      <version>1.13.200.v20250609-0437</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.services</artifactId>
+      <version>2.5.200.v20250326-1945</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.di.annotations</artifactId>
+      <version>1.8.400.v20240413-1529</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.di.extensions</artifactId>
+      <version>0.18.300.v20240413-1529</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.core.di.extensions.supplier</artifactId>
+      <version>0.17.900.v20250609-0432</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.emf.xpath</artifactId>
+      <version>0.6.0.v20250215-1931</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.emf.ecore</artifactId>
+      <version>2.40.0.v20250803-1633</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.emf.ecore.xmi</artifactId>
+      <version>2.39.0.v20250414-1351</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.bindings</artifactId>
+      <version>0.14.700.v20250612-1000</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.swt</artifactId>
+      <version>3.131.0.v20250820-1556</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.services</artifactId>
+      <version>1.6.500.v20250123-0754</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.model.workbench</artifactId>
+      <version>2.4.600.v20250318-1132</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.jface</artifactId>
+      <version>3.38.0.v20250807-1828</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.css.core</artifactId>
+      <version>0.14.500.v20240606-0949</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.css.swt</artifactId>
+      <version>0.15.600.v20250409-1135</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.css.swt.theme</artifactId>
+      <version>0.14.500.v20250213-1508</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.di</artifactId>
+      <version>1.5.600.v20250320-0558</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.dialogs</artifactId>
+      <version>1.6.100.v20250422-1254</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.ide</artifactId>
+      <version>3.17.200.v20231201-1637</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.progress</artifactId>
+      <version>0.4.800.v20250422-1254</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.workbench</artifactId>
+      <version>1.18.0.v20250423-1201</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.workbench.swt</artifactId>
+      <version>0.17.900.v20250612-1000</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.event</artifactId>
+      <version>1.7.300.v20250518-0609</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.widgets</artifactId>
+      <version>1.4.200.v20240801-0837</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.emf.ecore.change</artifactId>
+      <version>2.17.0.v20240604-0832</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.workbench.addons.swt</artifactId>
+      <version>1.5.800.v20250701-0653</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.workbench.renderers.swt</artifactId>
+      <version>0.16.900.v20250828-1028</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.jface.databinding</artifactId>
+      <version>1.15.300.v20240424-0444</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.e4.ui.workbench3</artifactId>
+      <version>0.17.500.v20250508-1247</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.urischeme</artifactId>
+      <version>1.3.500.v20240913-1323</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.emf.common</artifactId>
+      <version>2.43.0.v20250629-1403</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.bidi</artifactId>
+      <version>1.5.400.v20250715-0436</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.frameworkadmin</artifactId>
+      <version>2.3.500.v20250716-0529</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.frameworkadmin.equinox</artifactId>
+      <version>1.3.400.v20250515-0513</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.http.service.api</artifactId>
+      <version>1.2.102.v20250520-0629</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.artifact.repository</artifactId>
+      <version>1.5.800.v20250620-1926</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.metadata</artifactId>
+      <version>2.9.500.v20250726-1041</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.core</artifactId>
+      <version>2.13.100.v20250317-0903</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.jarprocessor</artifactId>
+      <version>1.3.600.v20250517-0338</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.repository</artifactId>
+      <version>2.9.500.v20250721-0421</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.director</artifactId>
+      <version>2.6.800.v20250714-1236</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.simpleconfigurator</artifactId>
+      <version>1.5.600.v20250606-0550</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.engine</artifactId>
+      <version>2.10.600.v20250724-1029</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.directorywatcher</artifactId>
+      <version>1.4.700.v20250720-1525</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.touchpoint.eclipse</artifactId>
+      <version>2.4.600.v20250722-0413</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.publisher</artifactId>
+      <version>1.9.600.v20250720-0951</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.publisher.eclipse</artifactId>
+      <version>1.6.600.v20250720-1525</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.metadata.repository</artifactId>
+      <version>1.5.700.v20250720-0955</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.extensionlocation</artifactId>
+      <version>1.5.700.v20250720-1526</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.garbagecollector</artifactId>
+      <version>1.3.700.v20250715-0459</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.operations</artifactId>
+      <version>2.7.700.v20250720-1530</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.simpleconfigurator.manipulator</artifactId>
+      <version>2.3.600.v20250729-0655</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.p2.ui</artifactId>
+      <version>2.8.900.v20250726-1033</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.equinox.security.ui</artifactId>
+      <version>1.4.600.v20250722-0503</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.browser</artifactId>
+      <version>3.8.600.v20250718-1505</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.help</artifactId>
+      <version>3.10.600.v20250613-0437</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.jface.notifications</artifactId>
+      <version>0.7.400.v20250426-1415</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>com.ibm.icu.base</artifactId>
+      <version>56.1.0.v201601250100</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.identity.core</artifactId>
+      <version>4.8.0.v20250808-1925</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.notifications.core</artifactId>
+      <version>4.8.0.v20250809-1602</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.notifications.feed</artifactId>
+      <version>4.8.0.v20250809-1918</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.workbench</artifactId>
+      <version>4.8.0.v20250813-0645</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.workbench</artifactId>
+      <version>3.136.0.v20250814-1558</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.notifications.ui</artifactId>
+      <version>4.8.0.v20250813-0648</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.repositories.core</artifactId>
+      <version>4.8.0.v20250813-0647</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.ui.navigator</artifactId>
+      <version>3.13.200.v20250727-0505</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.repositories.ui</artifactId>
+      <version>4.8.0.v20250826-1201</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.commons.screenshots</artifactId>
+      <version>4.8.0.v20250808-1924</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.monitor.core</artifactId>
+      <version>4.8.0.v20250814-0647</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.context.core</artifactId>
+      <version>4.8.0.v20250814-1442</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.discovery.core</artifactId>
+      <version>3.26.0.v20221229-1738</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.discovery.ui</artifactId>
+      <version>3.26.0.v20221229-1738</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.mylyn.monitor.ui</artifactId>
+      <version>4.8.0.v20250814-1811</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+      <version>3.131.0.v20250820-1556</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+      <version>3.131.0.v20250820-1556</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>p2.eclipse.plugin</groupId>
+      <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
+      <version>3.131.0.v20250820-1556</version>
+      <type>eclipse-plugin</type>
+      <scope>system</scope>
+      <systemPath>/tmp/file not yet available808392118651808263.tmp</systemPath>
+    </dependency>
+  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjrt</artifactId>
+        <version>1.8.10</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>2.0.17</version>
+      </dependency>
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>2.0.9</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+</project>

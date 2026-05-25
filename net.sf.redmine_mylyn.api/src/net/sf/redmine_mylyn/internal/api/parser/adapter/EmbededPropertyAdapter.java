@@ -1,6 +1,6 @@
 package net.sf.redmine_mylyn.internal.api.parser.adapter;
 
-import javax.xml.bind.annotation.adapters.XmlAdapter;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 
 import net.sf.redmine_mylyn.internal.api.parser.adapter.type.EmbededPropertyType;
 

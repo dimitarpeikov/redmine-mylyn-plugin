@@ -4,7 +4,7 @@ Bundle-Name: Redmine-Mylyn-Connector API Test
 Bundle-SymbolicName: net.sf.redmine_mylyn.api-test
 Bundle-Version: 0.3.5.qualifier
 Bundle-Vendor: Sven Krzyzak
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Require-Bundle: net.sf.redmine_mylyn.api;bundle-version="0.3.5",
  org.apache.commons.logging;bundle-version="1.0.0",
  org.json;bundle-version="1.0.0",

@@ -2,7 +2,7 @@ package net.sf.redmine_mylyn.internal.api.parser.adapter.type;
 
 import java.util.List;
 
-import javax.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElement;
 
 public class CFbyTrackerType {
 

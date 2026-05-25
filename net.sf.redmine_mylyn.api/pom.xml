@@ -16,10 +16,59 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jaxb2-maven-plugin</artifactId>
+				<version>3.3.0</version>
+				<dependencies>
+					<dependency>
+						<groupId>com.itemis.maven.plugins</groupId>
+						<artifactId>unleash-scm-provider-git</artifactId>
+						<version>2.1.0</version>
+					</dependency>
+					<dependency>
+						<groupId>jakarta.xml.bind</groupId>
+						<artifactId>jakarta.xml.bind-api</artifactId>
+						<version>4.0.2</version>
+					</dependency>
+					<dependency>
+						<groupId>org.glassfish.jaxb</groupId>
+						<artifactId>jaxb-runtime</artifactId>
+						<version>4.0.2</version>
+					</dependency>
+				</dependencies>
+			</plugin>
+			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.itemis.maven.plugins</groupId>
+				<artifactId>unleash-maven-plugin</artifactId>
+				<version>2.6.0</version>
+			</plugin>
 		</plugins>
 	</build>
+	
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.glassfish.jaxb</groupId>
+				<artifactId>jaxb-runtime</artifactId>
+				<version>4.0.2</version>
+			</dependency>
+		</dependencies>		
+	</dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230227</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.apache.httpcomponents.client5</groupId>
+		    <artifactId>httpclient5</artifactId>
+		    <version>5.3.1</version> 
+		</dependency>
+	</dependencies>
 	
 </project>

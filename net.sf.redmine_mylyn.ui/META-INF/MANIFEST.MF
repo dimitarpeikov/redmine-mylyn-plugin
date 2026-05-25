@@ -18,9 +18,12 @@ Require-Bundle: org.eclipse.core.runtime;bundle-version="3.5.0",
  net.sf.redmine_mylyn.common;bundle-version="0.4.0",
  net.sf.redmine_mylyn.api;bundle-version="0.4.0",
  net.sf.redmine_mylyn.core;bundle-version="0.4.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-21
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
 Export-Package: net.sf.redmine_mylyn.ui
 Import-Package: org.eclipse.jface.text,
- org.eclipse.jface.text.hyperlink
+ org.eclipse.jface.text.hyperlink,
+ org.osgi.service.cm;version="[1.6,2.0)",
+ org.osgi.service.event;version="[1.4,2.0)",
+ org.osgi.service.component;version="[1.4,2.0)"

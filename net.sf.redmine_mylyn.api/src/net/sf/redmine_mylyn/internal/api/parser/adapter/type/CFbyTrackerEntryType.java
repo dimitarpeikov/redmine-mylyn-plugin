@@ -1,7 +1,7 @@
 package net.sf.redmine_mylyn.internal.api.parser.adapter.type;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlValue;
+import jakarta.xml.bind.annotation.XmlAttribute;
+import jakarta.xml.bind.annotation.XmlValue;
 
 public class CFbyTrackerEntryType {
 	
