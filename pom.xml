@@ -61,8 +61,21 @@
 			<layout>p2</layout>
 			<url>${aspectj-site}</url>
 		</repository>
-	</repositories>	
-	
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-runtime</artifactId>
+			<version>4.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jaxb</groupId>
+			<artifactId>jaxb-core</artifactId>
+			<version>4.0.2</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 
@@ -101,6 +114,7 @@
 				<version>${tycho-version}</version>
 				<configuration>
 					<!-- resolver >p2< / resolver -->
+					<pomDependencies>consider</pomDependencies>
 					<environments>
 						<environment>
 							<os>linux</os>

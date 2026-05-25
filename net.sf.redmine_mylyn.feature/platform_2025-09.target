@@ -305,6 +305,7 @@
 			<unit id="org.eclipse.xtext.sdk.feature.group" version="2.40.0.v20250825-0355"/>
 			<unit id="org.eclipse.zest.sdk.feature.group" version="3.25.0.202508071936"/>
 		</location>
+        <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="any" includeSource="false" includeStartLevel="true" includeTests="false" includeUnpack="false" repository="https://download.eclipse.org/tools/orbit/downloads/drops/R20220316221138/repository/"/>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<repository location="https://download.eclipse.org/tools/aspectj/ajdt/431/dev/update/"/>
 			<unit id="org.aspectj.feature.group" version="1.9.22.202405141514"/>
